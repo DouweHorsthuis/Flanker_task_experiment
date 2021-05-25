@@ -153,11 +153,6 @@ Project Link: [https://github.com/DouweHorsthuis/Flanker_task_experiment/](https
 * [Ana Francisco](https://github.com/anafrancisco) - The post doctoral fellow that conceptualized the whole experiment
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
 [contributors-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
