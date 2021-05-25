@@ -1,0 +1,100 @@
+# these instructions are made on top of the original structure. will only comment where changes are made
+
+int ntrls = 20; #only 20 practice trials. 
+
+array <string> flanker_array[4];
+flanker_array[1] = "<<<<<";
+flanker_array[2] = ">>>>>";
+flanker_array[3] = ">><>>";
+flanker_array[4] = "<<><<";
+
+
+array <string> my_flanker[ntrls];   
+array <int> my_port_code[ntrls]; 			
+array <int> n_flanker[ntrls];       
+
+loop 
+int i = 1;
+until
+i > ntrls 
+begin
+	n_flanker[i] =1; 
+	i = i + 1;	
+	n_flanker[i] =2; 
+	i = i + 1;
+	n_flanker[i] =3; 
+	i = i + 1;
+	n_flanker[i] =4; 
+	i = i + 1; 
+end;
+n_flanker.shuffle(); 
+
+loop 
+int i = 1; 
+until 
+i > ntrls
+begin
+	if n_flanker[i] == 1 then
+		my_flanker[i] = flanker_array[1];
+		my_port_code[i] = 11;
+	elseif n_flanker[i]== 2 then
+		my_flanker[i] = flanker_array[2];
+		my_port_code[i] = 22;
+	elseif n_flanker[i]== 3 then
+		my_flanker[i] = flanker_array[3];
+		my_port_code[i] = 33;
+	elseif n_flanker[i]== 4 then
+		my_flanker[i] = flanker_array[4];
+		my_port_code[i] = 44;
+	end;
+	i =i +1;
+end;
+
+
+
+loop 
+int start = 1;
+until
+start>2
+begin
+	instructions_1_trial.present();;
+	start = start +1;
+end;
+wait_trial.present();
+
+int i=1; int isi;
+loop	 
+until
+	i > ntrls 
+begin		
+	### setting up flanker ###
+	pic_s1.clear(); 
+	s1_txt.set_caption(my_flanker[i]);
+	s1_txt.redraw();
+	pic_s1.add_part(s1_txt,0,0);
+	s1_trial.present();
+	s1_event.set_port_code(my_port_code[i]);
+	s1_event.set_event_code(string(my_port_code[i])); 
+	### flanker is done, randomizing and presenting ISI ###
+	isi = random(1500,2000);
+	if my_port_code[i] == 11 || my_port_code[i] == 33 then 
+		isi_trial_left.set_duration(isi);
+		isi_trial_left.present();
+	elseif my_port_code[i] == 22 || my_port_code[i] == 44 then 
+		isi_trial_right.set_duration(isi);
+		isi_trial_right.present();
+	end;
+	stimulus_data last = stimulus_manager.last_stimulus_data();  #here it stores the response data 
+	if last.type() == stimulus_hit then # if response is hit then present the Well done screen
+		term.print("hit");
+		feedback_good_trial.present();
+	elseif last.type() == stimulus_incorrect then # if response is incorrect then present the please try again screen
+		term.print("incorrect");
+		feedback_incorrect_trial.present();
+	elseif last.type() == stimulus_miss then # if response is a miss then present the "It seems like you didn't press" screen
+		term.print("miss");
+		feedback_miss_trial.present();
+	end; #seems no need to add anything for false alarms
+	i =i +1; 	
+end;
+end_trial.present();
