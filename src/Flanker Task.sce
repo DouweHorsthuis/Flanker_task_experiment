@@ -2,7 +2,7 @@ scenario = "Flanker Task";
 
 no_logfile = false;
 scenario_type = trials;
-
+response_matching = simple_matching;
 default_background_color = 128, 128, 128; #gray
 default_text_color = 0,0,0; #black #200,200,200; #white
 default_font_size = 30;  
