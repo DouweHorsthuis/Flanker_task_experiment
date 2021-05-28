@@ -152,8 +152,8 @@ Project Link: [https://github.com/DouweHorsthuis/Flanker_task_experiment/](https
 
 * [Ana Francisco](https://github.com/anafrancisco) - The post doctoral fellow that conceptualized the whole experiment
 
-[contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/EEG_to_ERP_pipeline_stats_R.svg?style=for-the-badge
-[contributors-url]: https://github.com/DouweHorsthuis/EEG_to_ERP_pipeline_stats_R/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
+[contributors-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
 [forks-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/network/members
 [stars-shield]: https://img.shields.io/github/stars/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
