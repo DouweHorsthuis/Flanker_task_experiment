@@ -161,6 +161,6 @@ Project Link: [https://github.com/DouweHorsthuis/Flanker_task_experiment/](https
 [issues-shield]: https://img.shields.io/github/issues/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
 [issues-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/issues
 [license-shield]: https://img.shields.io/github/license/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
-[license-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/master/LICENSE.txt
+[license-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/douwe-horsthuis-725bb9188/
