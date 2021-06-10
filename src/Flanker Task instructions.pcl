@@ -72,9 +72,9 @@ begin
 	s1_txt.set_caption(my_flanker[i]);
 	s1_txt.redraw();
 	pic_s1.add_part(s1_txt,0,0);
-	s1_trial.present();
 	s1_event.set_port_code(my_port_code[i]);
 	s1_event.set_event_code(string(my_port_code[i])); 
+	s1_trial.present();
 	### flanker is done, randomizing and presenting ISI ###
 	isi = random(1500,2000);
 	if my_port_code[i] == 11 || my_port_code[i] == 33 then 
