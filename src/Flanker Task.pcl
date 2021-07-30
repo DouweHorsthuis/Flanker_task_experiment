@@ -6,7 +6,7 @@
 # Stim duration is 200ms 
 # ISI = random(1500,2000)
 
-int ntrls = 20; # number of trials
+int ntrls = 120; # number of trials
 
 array <string> flanker_array[4];
 flanker_array[1] = "<<<<<";

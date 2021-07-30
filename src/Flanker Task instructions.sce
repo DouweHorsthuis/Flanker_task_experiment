@@ -4,7 +4,7 @@ no_logfile = false;
 scenario_type = trials;
 response_matching = simple_matching;
 default_background_color = 128, 128, 128; #gray
-default_text_color = 0,0,0; #black #200,200,200; #white
+default_text_color = 200,200,200; #black #200,200,200; #white
 default_font_size = 30;  
 active_buttons = 2;
 button_codes = 1,2;
@@ -13,7 +13,7 @@ pulse_width = 10;
 pcl_file = "Flanker task instructions.pcl"; 
 begin;
 
-text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLeft                                                                                        Right";} in_out_text;
+text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
 
 trial{ 
@@ -41,9 +41,9 @@ trial{ #this is the s1 trial
 		picture {	
 			text {	
 				caption = "<><<>";
-				font_size = 50;
+				font_size = 75;
 				text_align = align_center;
-				font_color = 0,0,0;
+				font_color = 200,200,200;
 			}s1_txt;
 			x = 256; y = -256;
 		}pic_s1; 
@@ -86,7 +86,7 @@ trial{
    trial_type = specific_response;  # button is pressed
    terminator_button = 1,2;   # Ctrl
    picture {
-		text {caption ="\n\n\n\n\n\n\nYou will see arrows point either to the left or to the right.\n Focus on the central arrow.\n If the arrow points to the left, press the left Ctrl with your left index finger. \n If the arrow points to the right, press the right Ctrl with your right index finger. \n\n\n\n\n\n\n\n\n\n Please press any Ctrl 2x to start the practice";};
+		text {caption ="\n\nYou will see arrows point either to the left or to the right.\n\n Focus on the central arrow.\n\n If the CENTRAL arrow points to the left, \n press the left Ctrl with your left index finger. \n\n\n If the CENTRAL arrow points to the right, \n press the right Ctrl with your right index finger. \n\n\n Please press any Ctrl 2x to start the practice.";};
       x=0;y=0;};
 }instructions_1_trial;
 
