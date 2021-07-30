@@ -14,7 +14,7 @@
 
 <h3 align="center">Flanker task experiment</h3>
 
-<h4 align="center"> This is still a work in progress. Flanker task experiment for Presentation® NeuroBehavioral Systems, This task is created for the Cystinosis experiment battery  (2021)</h4>
+<h4 align="center"> This is still a work in progress. Flanker task experiment for Presentation® NeuroBehavioral Systems, This task is created for the Cystinosis experiment battery (2021)</h4>
 
 ## This paradigm is still a work in progress
 
