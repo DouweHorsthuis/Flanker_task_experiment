@@ -1,4 +1,4 @@
-scenario = "Flanker Task";
+scenario = "Flanker Task - 3";
 
 no_logfile = false;
 scenario_type = trials;
