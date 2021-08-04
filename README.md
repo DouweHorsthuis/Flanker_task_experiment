@@ -102,7 +102,6 @@ We prefer that people read their own instructions because like this there is no 
 After reading this there are 20 practice trials. After each trial based on their response they get feedback on how they are preforming.
 
 
-
 ### Trigger codes
 
 The presentation software sends codes to the EEG system so that the responses and the stimuli can be time-locked in the EEG data. The following is an explanation of each trigger code: 
@@ -129,7 +128,8 @@ For now, 1 trial takes 1700ms-2200ms. We have not decided fully on how many tria
 
 
 ### Data collection
-This experiment is used to collected EEG data and RT data. 
+This experiment is used to collected EEG data and RT data.  
+**There are 4 Scenario Files because the paradigm needs to be ran 4x to get enough trials.**  
 
 <!-- LICENSE -->
 ## License
