@@ -23,8 +23,7 @@ trial{ #this is the first screen to prepare people
    picture {
 		text {caption ="Please double press any Ctrl to start";};
       x=0;y=0;};
-	code = "201 start recording";  
-	port_code = 201; 
+
 }start_trial;
 
 trial{ # the first stim is too quick if there is no delay. This trial puts 2sec between the start and the stim
@@ -34,6 +33,12 @@ trial{ # the first stim is too quick if there is no delay. This trial puts 2sec 
 		text {caption ="+";};
       x=0;y=0;};
 	}wait_event;
+	stimulus_event {
+	nothing{};
+	deltat=500;
+		code = "201 start recording";  
+	port_code = 201; 
+	}code_event;
 }wait_trial;
 		
 
@@ -46,11 +51,16 @@ trial{ #this is the s1 trial
 				font_size = 75;
 				text_align = align_center;
 				font_color = 200,200,200;
+				background_color = 200,200,200;
 			}s1_txt;
 			x = 256; y = -256;
-		}pic_s1; 
-		port_code = 10;  
+		}pic_s1;  
 	}s1_event;
+	stimulus_event{
+	nothing{};
+	deltat = 9;
+	port_code = 10; 
+	}s1_trigger;
 }s1_trial;
 
 trial { 

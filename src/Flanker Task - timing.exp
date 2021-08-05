@@ -1,5 +1,5 @@
 <ver>20.1</ver>
-<efn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task.exp</efn>
+<efn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - timing.exp</efn>
 <author>Douwe Horsthuis</author>
 <con>
 <pause>P</pause>
@@ -43,13 +43,7 @@
 <dsd></dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.sce</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1.sce</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 2.sce</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 3.sce</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 4.sce</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.pcl</filename>
-<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task.pcl</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1 - timingttest.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version>1.0</exp_version>
@@ -87,19 +81,7 @@
 <pass></pass>
 <ssa>
 <asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
+<sid>-1</sid>
 </asn>
 </ssa>
 </man>
@@ -114,10 +96,6 @@
 <ftp>
 <ccc>0</ccc>
 <do_upload>
-<sce>1</sce>
-<sce>1</sce>
-<sce>1</sce>
-<sce>1</sce>
 <sce>1</sce>
 </do_upload>
 <host></host>
@@ -141,7 +119,7 @@
 <ilc>0</ilc>
 <ip_chans></ip_chans>
 <lfd>C:\Users\Presentation\Dropbox (EinsteinMed)\Ana and Douwe - work\cystinosis paradigms\Flanker Task\Logfiles</lfd>
-<lnb>0</lnb>
+<lnb>2</lnb>
 <lno>3</lno>
 <log>
 <append_counter>1</append_counter>
@@ -492,75 +470,7 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>Ctrl</ibn>
-<ibn>Right Ctrl</ibn>
-<idn>Keyboard</idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>29</offset>
-<offset>157</offset>
-</idv>
-<overrides></overrides>
-<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>Ctrl</ibn>
-<ibn>Right Ctrl</ibn>
-<idn>Keyboard</idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>29</offset>
-<offset>157</offset>
-</idv>
-<overrides></overrides>
-<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 2.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>Ctrl</ibn>
-<ibn>Right Ctrl</ibn>
-<idn>Keyboard</idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>29</offset>
-<offset>157</offset>
-</idv>
-<overrides></overrides>
-<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 3.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>Ctrl</ibn>
-<ibn>Right Ctrl</ibn>
-<idn>Keyboard</idn>
-<index>0</index>
-<index>1</index>
-<label></label>
-<label></label>
-<offset>29</offset>
-<offset>157</offset>
-</idv>
-<overrides></overrides>
-<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 4.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1 - timingttest.sce</sfn>
 </sce>
 <sct>
 <capture_device>
@@ -636,7 +546,6 @@
 <vt>0</vt>
 </trigger_mode>
 <udt>0</udt>
-<ulo>0ms delay between stimulus and trigger tested on 8/5/2021 Adult booth right</ulo>
 <unc>0</unc>
 <upb>0</upb>
 <urp>0</urp>

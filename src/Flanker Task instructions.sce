@@ -57,7 +57,7 @@ trial {
 		picture left_right_pic;  
 		code = "isi";
 		response_active = true;
-		target_button = 2; #so that a hit shows up if you press left button
+		target_button = 1; #so that a hit shows up if you press left button
 	}isi_left_event;
 } isi_trial_left;
 
@@ -67,7 +67,7 @@ trial {
 		picture left_right_pic;  
 		code = "isi";
 		response_active = true;
-		target_button = 1; #so that a hit shows up if you press right button
+		target_button = 2; #so that a hit shows up if you press right button
 	}isi_right_event;
 } isi_trial_right;
 

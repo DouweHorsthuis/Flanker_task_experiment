@@ -1,9 +1,9 @@
-scenario = "Flanker Task - 3";
+scenario = "Flanker Task - 1";
 
 no_logfile = false;
 scenario_type = trials;
 response_matching = simple_matching;
-default_background_color = 128, 128, 128; #gray
+default_background_color = 0, 0, 0; #gray
 default_text_color = 200,200,200; #black #200,200,200; #white
 default_font_size = 30;  
 active_buttons = 2;
@@ -23,7 +23,6 @@ trial{ #this is the first screen to prepare people
    picture {
 		text {caption ="Please double press any Ctrl to start";};
       x=0;y=0;};
-
 }start_trial;
 
 trial{ # the first stim is too quick if there is no delay. This trial puts 2sec between the start and the stim

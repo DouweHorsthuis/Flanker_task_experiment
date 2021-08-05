@@ -124,7 +124,9 @@ For now this is how long should all the trials last. we need to do some testing 
     - ISI for 1500 to 2000ms, this is completely random
   
     
-For now, 1 trial takes 1700ms-2200ms. We have not decided fully on how many trials there should be. Once we do, I'll add the time. 
+1 trial takes 1700ms-2200ms. Each block has 120 trials and we run 4 blocks to get enough EEG data.
+
+Using the "Flanker Task - timing" file we tested the timing between the stimulus showing up on the screen and the trigger (using an oscilloscope) We made some adjustements (see the "s1_trigger" event in the scenario files). **Currently there is 0ms between the onset of any stimulus and when the trigger is send**. Important to note is that if this paradigm is ran anywhere else this might not be the case due to hardware differences and this needs to be checked. 
 
 
 ### Data collection
