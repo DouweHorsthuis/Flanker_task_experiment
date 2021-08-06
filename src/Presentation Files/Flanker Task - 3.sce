@@ -1,4 +1,4 @@
-scenario = "Flanker Task - 2";
+scenario = "Flanker Task - 3";
 
 no_logfile = false;
 scenario_type = trials;
@@ -15,6 +15,8 @@ begin;
 
 text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
+bitmap { filename = "standard_et.jpg"; preload = true; } et_bit; # for the eyetracker
+
 
 trial{ #this is the first screen to prepare people 
   trial_duration = forever;        	# trial lasts until target
@@ -67,14 +69,14 @@ trial {
     trial_duration = 1500; #set to change between 1500-2000ms   
      picture left_right_pic;  
     code = "isi";
-    target_button = 2; #so that a hit shows up if you press left button
+    target_button = 1; #so that a hit shows up if you press left button
 } isi_trial_left;
 
 trial { 
     trial_duration = 1500; #set to change between 1500-2000ms   
      picture left_right_pic;  
     code = "isi";
-    target_button = 1; #so that a hit shows up if you press right button
+    target_button = 2; #so that a hit shows up if you press right button
 } isi_trial_right;
 
 trial {

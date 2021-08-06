@@ -130,7 +130,7 @@ Using the "Flanker Task - timing" file we tested the timing between the stimulus
 
 
 ### Data collection
-This experiment is used to collected EEG data and RT data.  
+This experiment is used to collected EEG data, eye tracking data and RT data.  
 **There are 4 Scenario Files because the paradigm needs to be ran 4x to get enough trials.**  
 
 <!-- LICENSE -->

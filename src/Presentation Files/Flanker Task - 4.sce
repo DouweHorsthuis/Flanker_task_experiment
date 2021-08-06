@@ -15,6 +15,7 @@ begin;
 
 text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
+bitmap { filename = "standard_et.jpg"; preload = true; } et_bit; # for the eyetracker
 
 trial{ #this is the first screen to prepare people 
   trial_duration = forever;        	# trial lasts until target
