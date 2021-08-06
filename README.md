@@ -16,7 +16,6 @@
 
 <h4 align="center"> Flanker task experiment for Presentation® NeuroBehavioral Systems, This task is created for the Cystinosis experiment battery (2021)</h4>
 
-## This paradigm is still a work in progress
 
 **Table of Contents**
   
