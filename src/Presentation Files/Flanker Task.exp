@@ -1,5 +1,5 @@
-<ver>22</ver>
-<efn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task.exp</efn>
+<ver>20.1</ver>
+<efn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task.exp</efn>
 <author>Douwe Horsthuis</author>
 <con>
 <pause>P</pause>
@@ -23,7 +23,6 @@
 <ddi>0</ddi>
 <dds>
 <icm_profile></icm_profile>
-<orient>0</orient>
 <use_icm>0</use_icm>
 </dds>
 <ddv>Primary Display Driver</ddv>
@@ -33,7 +32,7 @@
 <dmd>32</dmd>
 <dmh>1024</dmh>
 <dmr>60</dmr>
-<dmrf>60.0197398255426</dmrf>
+<dmrf>60.02</dmrf>
 <dmw>1280</dmw>
 <docs>
 <args></args>
@@ -41,17 +40,16 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Stimuli</dsd>
-<dwm>0</dwm>
+<dsd>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task instructions.sce</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 1.sce</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 2.sce</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 3.sce</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 4.sce</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task instructions.pcl</filename>
-<filename>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task.pcl</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.sce</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1.sce</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 2.sce</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 3.sce</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 4.sce</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.pcl</filename>
+<filename>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task.pcl</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version>1.0</exp_version>
@@ -142,7 +140,7 @@
 <idt>1000</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Users\dohorsth\Documents\Dropbox (EinsteinMed)\Ana and Douwe - work\cystinosis paradigms\Flanker Task\Logfiles</lfd>
+<lfd>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Logfiles</lfd>
 <lnb>0</lnb>
 <lno>3</lno>
 <log>
@@ -174,8 +172,23 @@
 <one_processor>2</one_processor>
 <oports>
 <p>
-<mtype>none</mtype>
-<pindex>4294967295</pindex>
+<ama>0</ama>
+<ami>0</ami>
+<at>0</at>
+<dpw>5</dpw>
+<dsdi>0</dsdi>
+<dsi>0</dsi>
+<dsn>Data port</dsn>
+<igm>0</igm>
+<il>0</il>
+<ivm>0</ivm>
+<mtype>dig</mtype>
+<piai>LPT3</piai>
+<pian>Parallel Port</pian>
+<pihpn>LPT3</pihpn>
+<pindex>1</pindex>
+<rs>1</rs>
+<rt>0</rt>
 </p>
 </oports>
 <out_encrypt_key></out_encrypt_key>
@@ -198,23 +211,6 @@
 <piai>COM1</piai>
 <pian>Serial Port</pian>
 <pihpn>COM1</pihpn>
-</device>
-<device>
-<parameters>
-<cts>0</cts>
-<dsrin>0</dsrin>
-<dsrout>0</dsrout>
-<dtr>disable</dtr>
-<rts>disable</rts>
-<set_fifo>1</set_fifo>
-<spd></spd>
-<spp></spp>
-<spr></spr>
-<sps></sps>
-</parameters>
-<piai>COM3</piai>
-<pian>Serial Port</pian>
-<pihpn>COM3</pihpn>
 </device>
 </port_devices>
 <rdl>
@@ -342,12 +338,8 @@
 <name>Speech Recognition</name>
 <speech>
 <engine_class></engine_class>
-<lang></lang>
 <mc>0</mc>
-<prerecord>0</prerecord>
 <rw>0</rw>
-<sil>0</sil>
-<srgs></srgs>
 <uwd>0</uwd>
 <vocab></vocab>
 </speech>
@@ -462,7 +454,7 @@
 <require_name_match>0</require_name_match>
 <reschg>1</reschg>
 <rng>1</rng>
-<rts>0</rts>
+<rts>1</rts>
 <sce>
 <idv>
 <device_type>3</device_type>
@@ -500,7 +492,7 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task instructions.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task instructions.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -517,7 +509,7 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 1.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 1.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -534,7 +526,7 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 2.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 2.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -551,7 +543,7 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 3.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 3.sce</sfn>
 </sce>
 <sce>
 <idv>
@@ -568,21 +560,17 @@
 <offset>157</offset>
 </idv>
 <overrides></overrides>
-<sfn>C:\Users\dohorsth\Documents\GitHub\Flanker_tast_experiment\src\Presentation Files\Flanker Task - 4.sce</sfn>
+<sfn>C:\Users\Presentation\Desktop\Active Projects\Flanker_task\Presentation Files\Flanker Task - 4.sce</sfn>
 </sce>
 <sct>
 <capture_device>
 <abort_on_max_drops>0</abort_on_max_drops>
 <bps></bps>
 <chan></chan>
-<closest_match>0</closest_match>
-<closest_match_max></closest_match_max>
-<closest_match_min>1, 16, 8000</closest_match_min>
 <do_rec_vol>1</do_rec_vol>
 <freq></freq>
 <ignore_drops>1</ignore_drops>
 <max_drops>250</max_drops>
-<max_rec_dur>60</max_rec_dur>
 <name>None</name>
 <rec_vol>0</rec_vol>
 <show_drops>1</show_drops>
@@ -591,6 +579,7 @@
 <combine>0</combine>
 <ignore></ignore>
 <isr>0</isr>
+<max_rec_dur>10</max_rec_dur>
 <md></md>
 <mio></mio>
 <off_inter></off_inter>
@@ -647,7 +636,7 @@
 <vt>0</vt>
 </trigger_mode>
 <udt>0</udt>
-<ulo>0ms delay between stimulus and trigger tested on 8/5/2021 Adult booth right</ulo>
+<ulo>0ms delay between stimulus and trigger tested on 8/6/2021 Adult booth right</ulo>
 <unc>0</unc>
 <upb>0</upb>
 <urp>0</urp>

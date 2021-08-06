@@ -14,7 +14,7 @@
 
 <h3 align="center">Flanker task experiment</h3>
 
-<h4 align="center"> This is still a work in progress. Flanker task experiment for Presentation® NeuroBehavioral Systems, This task is created for the Cystinosis experiment battery (2021)</h4>
+<h4 align="center"> Flanker task experiment for Presentation® NeuroBehavioral Systems, This task is created for the Cystinosis experiment battery (2021)</h4>
 
 ## This paradigm is still a work in progress
 
@@ -129,7 +129,7 @@ For now this is how long should all the trials last. we need to do some testing 
 Using the "Flanker Task - timing" file we tested the timing between the stimulus showing up on the screen and the trigger (using an oscilloscope) We made some adjustements (see the "s1_trigger" event in the scenario files). **Currently there is 0ms between the onset of any stimulus and when the trigger is send**. Important to note is that if this paradigm is ran anywhere else this might not be the case due to hardware differences and this needs to be checked. 
 
 As you can see below, the onset of the trigger (orange) is at the same time as where the stimuli exceed the average threshold (blue)
-![Timing](https://github.com/DouweHorsthuis/Flanker_task_experiment/images/Timing.jpeg)
+![Timing](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/master/images/Timing.JPG)
 
 
 ### Data collection

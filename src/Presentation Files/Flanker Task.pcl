@@ -71,8 +71,7 @@ sub cleanup begin
 end;	
 EyeLink.send_command("set_idle_mode");
 wait_interval(50);#in ms
-EyeLink.send_command("clear_screen 0") #clearing screen
-EyeLink.set_parameter("transfer_image", et_bit.filename()); #this will be on the hostpc's screen
+EyeLink.set_parameter("transfer_image", et_bit.filename()); 
 
 
 
@@ -127,6 +126,10 @@ begin
 end;
 
 ## start of the paradigm
+##ET##
+	EyeLink.set_recording(true);
+	wait_interval(100); #in ms
+##ET##
 
 loop ## so you have to double click and biosemi starts recording only then
 int start = 1;
@@ -168,6 +171,6 @@ begin
    EyeLink.send_command("record_status_message 'EndTrial'");
 	EyeLink.send_message("TRIAL_RESULT 0");	
 end;
-end_block_trial.present();
+end_trial.present();
 cleanup();	
 end_trial.present();

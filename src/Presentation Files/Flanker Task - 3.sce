@@ -53,7 +53,6 @@ trial{ #this is the s1 trial
 				font_size = 75;
 				text_align = align_center;
 				font_color = 200,200,200;
-				background_color = 200,200,200;
 			}s1_txt;
 			x = 256; y = -256;
 		}pic_s1;  
