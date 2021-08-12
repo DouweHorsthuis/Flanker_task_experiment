@@ -21,8 +21,6 @@
   
 1. [About the project](#about-the-project)
     - [Built With](#built-with)
-2. [Getting started](#getting-started)
-    - [Prerequisites](#prerequisites)  
     - [Installation](#installation)
 3. [Info about the experiment](#info-about-the-experiment)
     - [Stimuli](#stimuli)
@@ -49,17 +47,7 @@ For each trial the participant is shown 5 arrows (<<<<<, >>>>>, <<><< or >><>>).
 
 * [Presentation® (NeuroBehavioral Systems)](https://www.neurobs.com/)
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-You need to have any version of the Presentation software. 
-
-### Installation
+## Installation
 
 [Download this Repo](https://github.com/DouweHorsthuis/Flanker_task_experiment)
 
@@ -145,7 +133,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/DouweHorsthu
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
+Douwe Horsthuis - [@douwejhorsthuis](https://twitter.com/douwejhorsthuis) - douwehorsthuis@gmail.com
 
 Project Link: [https://github.com/DouweHorsthuis/Flanker_task_experiment/](https://github.com/DouweHorsthuis/Flanker_task_experiment/)
 

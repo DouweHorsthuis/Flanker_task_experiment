@@ -1,6 +1,6 @@
 # these instructions are made on top of the original structure. will only comment where changes are made
 
-int ntrls = 20; #only 20 practice trials. 
+int ntrls = 8; #only 5 practice trials. 
 
 array <string> flanker_array[4];
 flanker_array[1] = "<<<<<";

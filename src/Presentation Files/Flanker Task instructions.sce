@@ -86,7 +86,7 @@ trial{
    trial_type = specific_response;  # button is pressed
    terminator_button = 1,2;   # Ctrl
    picture {
-		text {caption ="\n\nYou will see arrows point either to the left or to the right.\n\n Focus on the central arrow.\n\n If the CENTRAL arrow points to the left, \n press the left Ctrl with your left index finger. \n\n\n If the CENTRAL arrow points to the right, \n press the right Ctrl with your right index finger. \n\n\n Please press any Ctrl 2x to start the practice.";};
+		text {caption ="\n\nYou will see arrows point either to the left or to the right.\n<<<<<   <<>>>   >>>>>   >><>>\n\n Focus on the central arrow.\n\n If the CENTRAL arrow points to the left,\n <<<<<      >><>> \n press the left Ctrl with your left index finger. \n\n\n If the CENTRAL arrow points to the right,\n >>>>>      <<><< \n press the right Ctrl with your right index finger. \n\n Press the button as quick as you can while avoiding mistakes \n\n\n Please press any Ctrl 2x to start the practice.";};
       x=0;y=0;};
 }instructions_1_trial;
 

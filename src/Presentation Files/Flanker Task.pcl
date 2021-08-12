@@ -173,4 +173,3 @@ begin
 end;
 end_trial.present();
 cleanup();	
-end_trial.present();
