@@ -106,7 +106,7 @@ port code 44  = <<><<
 ### Timing
 The reason this experiment is coded in presentation, is because of the timing resolution of this software/language. When setup correctly this experiment has potentially 1ms of jitter. This will be measured here at our lab, using an oscilloscope. It is critical that this is re-tested before EEG data is collected. This has not yet happened because we haven't decided on the duration of the trials.
 
-For now this is how long should all the trials last. we need to do some testing to see if we move things around
+This is how long should all the trials last.
     - S1 shows for 200ms
     - ISI for 1500 to 2000ms, this is completely random
   
@@ -142,7 +142,7 @@ Project Link: [https://github.com/DouweHorsthuis/Flanker_task_experiment/](https
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Ana Francisco](https://github.com/anafrancisco) - The post doctoral fellow that conceptualized the whole experiment
+* [Ana Francisco](https://github.com/anafrancisco) - The Research Assistant Professor that conceptualized the whole experiment
 
 [contributors-shield]: https://img.shields.io/github/contributors/DouweHorsthuis/Flanker_task_experiment.svg?style=for-the-badge
 [contributors-url]: https://github.com/DouweHorsthuis/Flanker_task_experiment/graphs/contributors
