@@ -16,7 +16,9 @@ begin;
 text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
 bitmap { filename = "standard_et.jpg"; preload = true; } et_bit; # for the eyetracker
-
+picture { #this will change the background of the Eyetracker calibration to the same as the paradigm's
+   background_color = 128, 128, 128;
+} et_calibration;
 
 trial{ #this is the first screen to prepare people 
   trial_duration = forever;        	# trial lasts until target
