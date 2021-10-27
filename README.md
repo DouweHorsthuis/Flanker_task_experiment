@@ -119,6 +119,8 @@ Using the "Flanker Task - timing" file we tested the timing between the stimulus
 As you can see below, the onset of the trigger (orange) is at the same time as where the stimuli exceed the average threshold (blue)
 ![Timing](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Timing.JPG)
 
+**if you plan to use this paradigm** 
+You need to do the same and test if for your setup the timing is also okay. This timing is dictated by the refreshrate of your screen, the quality of your computer and potentially other minor factors. If you want to change the timing you can change  "deltat = ..". Whenever this shows up in the code it will delay the sending of the trigger by x amount of miliseconds. So in our case we noticed the screen being 9ms delayed, so this is why we delay the trigger by the same amount. 
 
 ### Data collection
 This experiment is used to collected EEG data, eye tracking data and RT data.  
