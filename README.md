@@ -133,7 +133,7 @@ To pilot if the paradigm works, we piloted it on 4 adult controls. We've average
 
 The ERP is timelocked to the onset of the stimulus. 
 
-![Flanker Results](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Flanker.PNG)
+![Flanker Results](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Flanker.png)
 
 We also tested and concluded that this is a task understood and doable for kids. 
 
