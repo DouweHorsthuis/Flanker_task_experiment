@@ -131,7 +131,7 @@ To pilot if the paradigm works, we piloted it on 4 adult controls. We've average
 - the central error pointing left incongruent (>><>>) (followed by a correct response)  
 - the central error pointing right incongruent (<<><<) (followed by a correct response)  
 
-The ERP is timelocked to the onset of the stimulus. 
+The ERP is timelocked to the onset of the stimulus. And is showing a difference between the congruent and incongruent reponses. Due to the lack of data it's not perfectly clear but there is reason enough to believe this result will be clearer with more data and between different groups. 
 
 ![Flanker Results](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Flanker.png)
 
