@@ -30,6 +30,7 @@
     - [Trigger codes](#trigger-codes)
     - [Timing](#timing)
     - [Data collection](#data-collection)
+    - [Piloting Results](#piloting-results)
 3. [License](#license)
 3. [Contact](#contact)
 3. [Acknowledgements](#acknowledgements)
@@ -55,7 +56,7 @@ Create 2 folders
 
 Folder 1 - "Presentation Files"  - this folder should contain all the presentation files and Sequences found in the "src" folder
 
-Folder 2 - "Log files"           - this folder will be filled with all the presentation Log files containing the behavioral data
+Folder 2 - "Logfiles"           - this folder will be filled with all the presentation Log files containing the behavioral data
 
 
 ## Info about the experiment
@@ -121,7 +122,20 @@ As you can see below, the onset of the trigger (orange) is at the same time as w
 
 ### Data collection
 This experiment is used to collected EEG data, eye tracking data and RT data.  
-**There are 4 Scenario Files because the paradigm needs to be ran 4x to get enough trials.**  
+**There are 4 Scenario Files because the paradigm needs to be ran 4x to get enough trials.** 
+
+### Piloting Results
+To pilot if the paradigm works, we piloted it on 4 adult controls. We've averaged the signal accros subjects and we are showing for correct responses after:  
+- the central error pointing left congruent (<<<<<) (followed by a correct response)  
+- the central error pointing right congruent (>>>>>) (followed by a correct response)  
+- the central error pointing left incongruent (>><>>) (followed by a correct response)  
+- the central error pointing right incongruent (<<><<) (followed by a correct response)  
+
+The ERP is timelocked to the onset of the stimulus. 
+
+![Flanker Results](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Flanker.PNG)
+
+We also tested and concluded that this is a task understood and doable for kids. 
 
 <!-- LICENSE -->
 ## License
