@@ -77,7 +77,7 @@ Most things are semi random. This means that there are equal amounts of <<<<<, >
 
 Before running the paradigm we run the "Flanker Task instructions scenario". This scenario starts off with the following instructions:  
   
-![instructions](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Slide1.png)  
+![instructions](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/src/Stimuli/Slide1.PNG)  
   
 In the final version we updated the instructions to beside the picture above also have 5 pictures of example trials that the experimenter will go through together with the partcipant. After this is done, the participant will practice 5 practice trials with feedback.
 
