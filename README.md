@@ -76,18 +76,12 @@ Most things are semi random. This means that there are equal amounts of <<<<<, >
 ### Instructions
 
 Before running the paradigm we run the "Flanker Task instructions scenario". This scenario starts off with the following instructions:  
-```
-You will see arrows point either to the left or to the right.  
-Focus on the central arrow.  
-If the arrow points to the left, press the left Ctrl with your left index finger.  
-If the arrow points to the right, press the right Ctrl with your right index finger.  
   
+![instructions](https://github.com/DouweHorsthuis/Flanker_task_experiment/blob/main/images/Slide1.png)  
   
-Please press any Ctrl 2x to start the practice
-```
+In the final version we updated the instructions to beside the picture above also have 5 pictures of example trials that the experimenter will go through together with the partcipant. After this is done, the participant will practice 5 practice trials with feedback.
 
 We prefer that people read their own instructions because like this there is no chance that some people get different instructions by mistake.  
-After reading this there are 20 practice trials. After each trial based on their response they get feedback on how they are preforming.
 
 
 ### Trigger codes

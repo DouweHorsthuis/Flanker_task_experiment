@@ -15,6 +15,14 @@ begin;
 
 text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
+bitmap {filename = "Slide1.png";  preload = true;} slide1; picture{ bitmap slide1; x = 0; y = 0; }inst_1;
+bitmap {filename = "Slide2.png";  preload = true;} slide2; picture{ bitmap slide2; x = 0; y = 0; }inst_2;
+bitmap {filename = "Slide3.png";  preload = true;} slide3; picture{ bitmap slide3; x = 0; y = 0; }inst_3;
+bitmap {filename = "Slide4.png";  preload = true;} slide4; picture{ bitmap slide4; x = 0; y = 0; }inst_4;
+bitmap {filename = "Slide5.png";  preload = true;} slide5; picture{ bitmap slide5; x = 0; y = 0; }inst_5;
+bitmap {filename = "Slide6.png";  preload = true;} slide6; picture{ bitmap slide6; x = 0; y = 0; }inst_6;
+bitmap {filename = "Slide7.png";  preload = true;} slide7; picture{ bitmap slide7; x = 0; y = 0; }inst_7;
+
 
 trial{ 
   trial_duration = forever;        	# trial lasts until target
@@ -82,13 +90,53 @@ trial_duration = 2000;
 } end_trial;
 
 trial{ 
-  trial_duration = forever;        	# trial lasts until target
+   trial_duration = forever;        	# trial lasts until target
    trial_type = specific_response;  # button is pressed
-   terminator_button = 1,2;   # Ctrl
-   picture {
-		text {caption ="\n\nYou will see arrows point either to the left or to the right.\n<<<<<   <<>>>   >>>>>   >><>>\n\n Focus on the central arrow.\n\n If the CENTRAL arrow points to the left,\n <<<<<      >><>> \n press the left Ctrl with your left index finger. \n\n\n If the CENTRAL arrow points to the right,\n >>>>>      <<><< \n press the right Ctrl with your right index finger. \n\n Press the button as quick as you can while avoiding mistakes \n\n\n Please press any Ctrl 2x to start the practice.";};
-      x=0;y=0;};
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_1;
 }instructions_1_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_2;
+}instructions_2_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_3;
+}instructions_3_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_4;
+}instructions_4_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_5;
+}instructions_5_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_6;
+}instructions_6_trial;
+
+trial{ 
+   trial_duration = forever;        	# trial lasts until target
+   trial_type = specific_response;  # button is pressed
+   terminator_button = 1,2;   # Ctrl  
+	picture inst_7;
+}instructions_7_trial;
 
 trial{ 
   trial_duration = 2000;        	# trial lasts until target
