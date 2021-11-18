@@ -61,7 +61,7 @@ trial{ #this is the s1 trial
 	}s1_event;
 	stimulus_event{
 	nothing{};
-	deltat = 9;
+	deltat = 7;
 	port_code = 10; 
 	}s1_trigger;
 }s1_trial;
