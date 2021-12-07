@@ -13,7 +13,7 @@ pulse_width = 10;
 pcl_file = "Flanker task instructions.pcl"; 
 begin;
 
-text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
+text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nBlue                                                                                        Yellow";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
 bitmap {filename = "Slide1.png";  preload = true;} slide1; picture{ bitmap slide1; x = 0; y = 0; }inst_1;
 bitmap {filename = "Slide2.png";  preload = true;} slide2; picture{ bitmap slide2; x = 0; y = 0; }inst_2;
@@ -29,7 +29,7 @@ trial{
    trial_type = specific_response;  # button is pressed
    terminator_button = 1,2;   # left-Ctrl
    picture {
-		text {caption ="Please press any Ctrl to continue";};
+		text {caption ="Please press any the yellow or blue key to continue";};
       x=0;y=0;};
 }start_trial;
 
