@@ -13,7 +13,7 @@ pulse_width = 10;
 pcl_file = "Flanker task.pcl"; 
 begin;
 
-text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nLEFT                                                                                        RIGHT";} in_out_text;
+text{caption = "\n\n\n\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\nBlue                                                                                        Yellow";} in_out_text;
 picture { text in_out_text; x = 0; y = 0; } left_right_pic;
 bitmap { filename = "standard_et.jpg"; preload = true; } et_bit; # for the eyetracker
 picture { #this will change the background of the Eyetracker calibration to the same as the paradigm's
@@ -25,7 +25,7 @@ trial{ #this is the first screen to prepare people
    trial_type = specific_response;  # button is pressed
    terminator_button = 1,2;   # left-Ctrl
    picture {
-		text {caption ="Please double press any Ctrl to start";};
+		text {caption ="Please double press the blue or yellow key to start";};
       x=0;y=0;};
 
 }start_trial;
